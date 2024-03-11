@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87A96B;
+    color: #000;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+h3{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+th{
+	background-color: black;
+	color: white;
+    font-weight: bold;
+}
+
+td{
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+.table th, .table td {
+    width: 10%;
+}
+
+.table th + th, .table td + td {
+    width: 15%;
+}
+
+.table {
+    border: 2px;
+    border-style: solid;
+    column-rule-color: white;
+    border-spacing: 5;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.pe{
+	background-color: #9CAF88;
+}
+
+.networking{
+	background-color: #14452F;
+	color: white;
+}
+
+.multimedia{
+	background-color: #74C69D;
+}
+
+.ethics{
+	background-color: #08A045;
+}
+
+.programming{
+	background-color: #819171;
+}
+
+.website{
+	background-color: #7AE582;
+}
+
+.database{
+	background-color: #344E41;
+    color: white;
+}
+
+@media screen {
+            body {
+                font-family: Arial, sans-serif;
+            }
+        }
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .table td {
+        background-color: #fff;
+        color: #000;
+    }
+}
